@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 
 public class SampleTest {
         @Test
-        public void 正常publicにnull接続falseできるtrueこと() throws Exception {
+        public void 異常publicにnull接続falseできるtrueこと() throws Exception {
             assertThat(true, is(Boolean.TRUE));
         }
 }
